@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using SudokuER.Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,6 +14,7 @@ namespace SudokuER
             InitializeComponent();
 
             MainPage = new MainPage();
+
         }
 
         protected override void OnStart()
